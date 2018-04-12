@@ -1,0 +1,17 @@
+Journal Entries
+
+Entry 1
+
+We started putting fake entries into the database and calling them into the app. One of the challenges that I faced was getting the faker images to work with the css layout on the larval app. This required a lot of fine turning and adjusting which was a tedious task. After figuring it out it was easy to replicate, but I dislike having to work around css.
+
+Entry 2
+
+I got the faker app working on the server. One of the challenges that I faced was getting the larval app to function properly on the server, without error messages, and to connect it to my domain. This challenge I have overcame and as I continue practicing it, it will be easier to set up. 
+
+Entry 3
+
+I am just starting the new assignment, and I am not sure where to start. I think what I find challenging is grasping some of the relations between certain elements, variables and database tables. It took me watching some of the screen casts several time for me to start to grasp it. Once I understood it makes working with the app a whole lot easier.
+
+
+Entry 4
+It’s the final day of the last assignment. I got most of the kinks worked out one the project. The most challenging thing that I found today was recalling the steps to make the new larval app work on the server. It didn’t take long to recall it, so I finished setting it up
