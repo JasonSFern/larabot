@@ -7,7 +7,7 @@
   <div class="article">
     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
       {{ csrf_field() }}
-      <h2>Register</h2>
+      <h2>Login</h2>
 
       <div class="form-input {{ $errors->has('email') ? ' has-error' : '' }}">
           <div>
@@ -37,8 +37,8 @@
 
         <div class="inline-block">
           <p><input type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }}> Remember Me</p>
-          <p><a href="{{ route('password.request') }}">Forgot Your Password?</a></p>
-          <p>Not registered? Click <a href="{{ route('register') }}">Here</a></p>
+          <!-- <p><a href="{{ route('password.request') }}">Forgot Your Password?</a></p> -->
+          <p>Not registered?</p>
         </div>
 
         <div>

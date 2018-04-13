@@ -11,38 +11,19 @@
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     </head>
 
-    <body class='wrapper'>
+    <body class='' style="text-align:center;">
 
-      <div class="inner-wrapper">
+      <div class="">
       <div class="banner">
+            <a href="/"><img src="/img/lblogo.png" alt=""></a>
+      </div>
 
-            <a href="/"><img src="/img/cplogo.png" alt=""></a>
-
-@yield('miniForm')
-
+      <div>
+        @yield('miniForm')
       </div>
 
       <div class="flex flex-row links">
         <div>
-            <h1>About</h1>
-        </div>
-        <div>
-            <h1>FAQ</h1>
-        </div>
-        <div>
-            <h1>Recommended Funds</h1>
-        </div>
-        <div>
-            <h1>Model Portfolios</h1>
-        </div>
-        <div>
-            <h1>Podcast</h1>
-        </div>
-        <div>
-            <h1>Resources</h1>
-        </div>
-        <div>
-            <h1>Find An Advisor</h1>
         </div>
       </div>
 
@@ -50,7 +31,7 @@
 
       @yield('articles')
 
-<main>
+<!-- <main>
       </div>
 
       <div class="right-container search-input">
@@ -111,7 +92,7 @@
             </div>
           </div>
         </div>
-        </section>
+        </section> -->
 
     </body>
 

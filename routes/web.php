@@ -16,8 +16,8 @@ Route::post('/article', 'ArticleController@store');
 Route::get('/articles/{id}', 'ArticleController@userArticles');
 Route::get('/articles/{id}/like/toggle', 'ArticleController@toggleLike');
 
-Route::get('/contact', 'ContactController@create');
-Route::post('/contact', 'ContactController@store');
+// Route::get('/contact', 'ContactController@create');
+// Route::post('/contact', 'ContactController@store');
 
 Route::post('/', 'CommentController@store');
 
